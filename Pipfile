@@ -1,0 +1,46 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-wtf = "==0.14.2"
+flask-cors = "*"
+flask-heroku = "*"
+flask-migrate = "*"
+flask-session = "*"
+flask-sqlalchemy = "==2.3.2"
+flask-marshmallow = "*"
+marshmallow-sqlalchemy = "*"
+"jinja2" = "==2.10"
+markupsafe = "==1.0"
+sqlalchemy = "==1.2.8"
+werkzeug = "==0.14.1"
+gunicorn = "*"
+itsdangerous = "==0.24"
+"psycopg2" = "==2.7.4"
+requests = "*"
+click = "==6.7"
+passlib = "==1.7.1"
+"psycopg2-binary" = "*"
+flask-io = "*"
+flask-script = "*"
+sqlalchemy-utils = "*"
+pyre-check = "*"
+"beautifulsoup4" = "==4.6.0"
+blinker = "==1.4"
+flask-login = "==0.4.1"
+flask-mail = "==0.9.1"
+flask-sitemap = "==0.3.0"
+python-slugify = "==1.2.5"
+unidecode = "==1.0.22"
+uwsgi = "==2.0.17"
+wand = "==0.4.4"
+wtforms = "==2.2.1"
+#wsgiref = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
